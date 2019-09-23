@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>its me</title>
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <!-- icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.0/css/ionicons.min.css">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <!-- OwlCarousel2 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <!-- master css -->
+    <link rel="stylesheet" href="css/master.css">
+</head>
+<body>
+    <canvas id="canvas"></canvas>
+    <header>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="left_img">
+                        <img src="images/me.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-8 pl-lg-0">
+                    <div class="menu_panel">
+                        <div class="row">
+                            <div class="col-md-6 pb-3">
+                                <div class="menu intro">
+                                    <div class="text-center">
+                                        <div class="mobile_img">
+                                            <img src="images/me.jpg" alt="">
+                                        </div>
+                                        <h2> Apu</h2>
+                                        <h3>Front-End Enthusiast</h3>
+                                        <ul>
+                                            <li><a href="https://github.com/ubaidurrahmanapu" target="_blank"><i class="ion-social-github"></i></a></li>
+                                            <li><a href="https://www.linkedin.com/in/ubaidurrahmanapu" target="_blank"><i class="ion-social-linkedin"></i></a></li>
+                                            <li><a href="#" id="contact"><i class="ion-email"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 pl-md-0 pb-3">
+                                <div class="menu" id="portfolio">
+                                    <div class="text-center">
+                                        <h1>Portfolio</h1>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 pb-3 pb-md-0">
+                                <div class="menu" id="about">
+                                    <div class="text-center">
+                                        <h1>About Me</h1>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 pl-md-0">
+                                <div class="menu tools">
+                                    <div class="container">
+                                        <div class="row px-3">
+                                            <div class="col-3 pb-3">
+                                                <img src="images/tools/html.png" alt="" class="img-fluid w-100">
+                                            </div>
+                                            <div class="col-3 pb-3">
+                                                <img src="images/tools/css.png" alt="" class="img-fluid w-100">
+                                            </div>
+                                            <div class="col-3 pb-3">
+                                                <img src="images/tools/sass.png" alt="" class="img-fluid w-100">
+                                            </div>
+                                            <div class="col-3 pb-3">
+                                                <img src="images/tools/bootstrap.png" alt="" class="img-fluid w-100">
+                                            </div>
+                                            <div class="col-3">
+                                                <img src="images/tools/js.png" alt="" class="img-fluid w-100">
+                                            </div>
+                                            <div class="col-3">
+                                                <img src="images/tools/jqery.png" alt="" class="img-fluid w-100">
+                                            </div>
+                                            <div class="col-3">
+                                                <img src="images/tools/react.png" alt="" class="img-fluid w-100">
+                                            </div>
+                                            <div class="col-3">
+                                                <img src="images/tools/xd.png" alt="" class="img-fluid w-100">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!--menu row-->
+
+                        <!-- menu content -->
+                        <!-- portfolio -->
+                        <div class="menu_content zoomIn" id="portfolio_content">
+                            <div class="cancel"><i class="ion-android-cancel"></i></div>
+                            <div class="container-fluid">
+                                <!-- My Projects -->
+                                <h2 class="text-center mb-4">My Projects</h2>
+                                <div class="owl-carousel my_project">
+                                    <div class="item">
+                                        <img src="images/portfolio.jpg" alt="">
+                                        <a href="" class="caption">
+                                            <div>
+                                                <h3>Portfolio</h3>
+                                                <h5>View Site</h5>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="item">
+                                        <img src="images/portfolio.jpg" alt="">
+                                        <a href="" class="caption">
+                                            <div>
+                                                <h3>Personal</h3>
+                                                <h5>View Site</h5>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="item">
+                                        <img src="images/portfolio.jpg" alt="">
+                                        <a href="" class="caption">
+                                            <div>
+                                                <h3>Corporate</h3>
+                                                <h5>View Site</h5>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="item">
+                                        <img src="images/portfolio.jpg" alt="">
+                                        <a href="" class="caption">
+                                            <div>
+                                                <h3>Transport</h3>
+                                                <h5>View Site</h5>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="item">
+                                        <img src="images/portfolio.jpg" alt="">
+                                        <a href="" class="caption">
+                                            <div>
+                                                <h3>Creative</h3>
+                                                <h5>View Site</h5>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <!-- live Projects -->
+                                <h3 class="text-center mb-3 mt-4">Live Projects</h3>
+                                <div class="owl-carousel live_project">
+                                    <div class="item">
+                                        <img src="images/portfolio/live_project/bmi.png" alt="">
+                                        <a href="" class="caption">
+                                            <div>
+                                                <h3>BMI Calculator</h3>
+                                                <h5>View Site</h5>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="item">
+                                        <img src="images/portfolio/live_project/papyras.png" alt="">
+                                        <a href="" class="caption">
+                                            <div>
+                                                <h3>Papyras Blog</h3>
+                                                <h5>View Site</h5>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="item">
+                                        <img src="images/portfolio/live_project/orchid.png" alt="">
+                                        <a href="" class="caption">
+                                            <div>
+                                                <h3>orchid Home Decor</h3>
+                                                <h5>View Site</h5>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="item">
+                                        <img src="images/portfolio/live_project/nuevachamba.png" alt="">
+                                        <a href="" class="caption">
+                                            <div>
+                                                <h3>nuevachamba</h3>
+                                                <h5>View Site</h5>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- about -->
+                        <div class="menu_content" id="about_content">
+                            <div class="container-fluid">
+                                <div class="cancel"><i class="ion-android-cancel"></i></div>
+                                <h1 class="text-center mb-4 mt-3">About <span>Me</span></h1>
+                                <h5><i class="ion-android-person"></i> PERSONAL INFO</h5>
+                                <p class="mb-4">I am a front-end developer with experience in design, coding, and testing complex systems. I'm highly proficient in HTML5, CSS3, and SASS. Areas of Expertise in Adobe XD, Bootstrap, Javascript, Jquery, Git, React js.</p>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <p class="mb-1 d-flex">
+                                            <b class="position-relative" style="min-width: 120px;">First Name <span class="position-absolute" style="right: 5px;">:</span></b>
+                                            <span>Ubaidur Rahman</span>
+                                        </p>
+                                        <p class="mb-1 d-flex">
+                                            <b class="position-relative" style="min-width: 120px;">Last Name <span class="position-absolute" style="right: 5px;">:</span></b>
+                                            <span>Apu</span>
+                                        </p>
+                                        <p class="mb-1 d-flex">
+                                            <b class="position-relative" style="min-width: 120px;">Date of birth <span class="position-absolute" style="right: 5px;">:</span></b>
+                                            <span>24 July 1995</span>
+                                        </p>
+                                        <p class="mb-1 d-flex">
+                                            <b class="position-relative" style="min-width: 120px;">Nationality <span class="position-absolute" style="right: 5px;">:</span></b>
+                                            <span>Bangladeshi</span>
+                                        </p>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <p class="mb-1 d-flex">
+                                            <b class="position-relative" style="min-width: 90px;">Phone <span class="position-absolute" style="right: 5px;">:</span></b>
+                                            <span>+8801960584877</span>
+                                        </p>
+                                        <p class="mb-1 d-flex">
+                                            <b class="position-relative" style="min-width: 90px;">Address <span class="position-absolute" style="right: 5px;">:</span></b>
+                                            <span>Dhaka, Bangladesh</span>
+                                        </p>
+                                        <p class="mb-1 d-flex">
+                                            <b class="position-relative" style="min-width: 90px;">Email <span class="position-absolute" style="right: 5px;">:</span></b>
+                                            <span>ubaidurrahman38@gmail.com</span>
+                                        </p>
+                                        <p class="mb-1 d-flex">
+                                            <b class="position-relative" style="min-width: 90px;">Skype <span class="position-absolute" style="right: 5px;">:</span></b>
+                                            <span>folkapu38</span>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6 my-3">
+                                        <a href="" class="btn download_button">DOWNLOAD Resume</a>
+                                    </div>
+                                    <div class="col-md-6 my-3">
+                                        <ul class="social">
+                                            <li><a href="https://www.facebook.com/ubaidur.rahmanapu" target="blank"><i class="ion-social-facebook"></i></a></li>
+                                            <li><a href="https://www.linkedin.com/in/ubaidur-rahman-apu-631342163/" target="blank"><i class="ion-social-linkedin"></i></a></li>
+                                            <li><a href="mailto:ubaidurrahman38@gmail.com"><i class="ion-social-google"></i></a></li>
+                                            <li><a href="skype:folkapu38?chat"><i class="ion-social-skype"></i></a></li>
+                                            <li><a href="https://github.com/ubaidurrahmanapu" target="blank"><i class="ion-social-github"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-8 offset-md-2 mb-4 mt-5">
+                                        <!-- skill -->
+                                        <div class="card">
+                                            <div class="head">
+                                                <h5 class="m-0 text-center"><i class="ion-star"></i> SKILLS</h5>
+                                            </div>
+                                            <div class="desc pb-3">
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <div class="skill">
+                                                            <p>HTML5</p>
+                                                            <ul>
+                                                                <li><i class="ion-android-star"></i></li>
+                                                                <li><i class="ion-android-star"></i></li>
+                                                                <li><i class="ion-android-star"></i></li>
+                                                                <li><i class="ion-android-star"></i></li>
+                                                                <li><i class="ion-android-star-outline"></i></li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="skill">
+                                                            <p>CSS3</p>
+                                                            <ul>
+                                                                <li><i class="ion-android-star"></i></li>
+                                                                <li><i class="ion-android-star"></i></li>
+                                                                <li><i class="ion-android-star"></i></li>
+                                                                <li><i class="ion-android-star"></i></li>
+                                                                <li><i class="ion-android-star-outline"></i></li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="skill">
+                                                            <p>JAVASCRIPT</p>
+                                                            <ul>
+                                                                <li><i class="ion-android-star"></i></li>
+                                                                <li><i class="ion-android-star"></i></li>
+                                                                <li><i class="ion-android-star"></i></li>
+                                                                <li><i class="ion-android-star-outline"></i></li>
+                                                                <li><i class="ion-android-star-outline"></i></li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="skill">
+                                                            <p>Adobe XD</p>
+                                                            <ul>
+                                                                <li><i class="ion-android-star"></i></li>
+                                                                <li><i class="ion-android-star"></i></li>
+                                                                <li><i class="ion-android-star"></i></li>
+                                                                <li><i class="ion-android-star-outline"></i></li>
+                                                                <li><i class="ion-android-star-outline"></i></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="skill">
+                                                            <p>JQUERY</p>
+                                                            <ul>
+                                                                <li><i class="ion-android-star"></i></li>
+                                                                <li><i class="ion-android-star"></i></li>
+                                                                <li><i class="ion-android-star"></i></li>
+                                                                <li><i class="ion-android-star"></i></li>
+                                                                <li><i class="ion-android-star-outline"></i></li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="skill">
+                                                            <p>BOOTSTRAP</p>
+                                                            <ul>
+                                                                <li><i class="ion-android-star"></i></li>
+                                                                <li><i class="ion-android-star"></i></li>
+                                                                <li><i class="ion-android-star"></i></li>
+                                                                <li><i class="ion-android-star"></i></li>
+                                                                <li><i class="ion-android-star-outline"></i></li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="skill">
+                                                            <p>SCSS</p>
+                                                            <ul>
+                                                                <li><i class="ion-android-star"></i></li>
+                                                                <li><i class="ion-android-star"></i></li>
+                                                                <li><i class="ion-android-star"></i></li>
+                                                                <li><i class="ion-android-star"></i></li>
+                                                                <li><i class="ion-android-star-outline"></i></li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="skill">
+                                                            <p>React js</p>
+                                                            <ul>
+                                                                <li><i class="ion-android-star"></i></li>
+                                                                <li><i class="ion-android-star-outline"></i></li>
+                                                                <li><i class="ion-android-star-outline"></i></li>
+                                                                <li><i class="ion-android-star-outline"></i></li>
+                                                                <li><i class="ion-android-star-outline"></i></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <!-- experience -->
+                                        <div class="card">
+                                            <div class="head">
+                                                <h5 class="m-0 text-center"><i class="ion-briefcase"></i> EXPERIENCE</h5>
+                                            </div>
+                                            <div class="desc">
+                                                <h6>FRONTEND DEVELOPER</h6>
+                                                <span><i class="ion-android-calendar"></i> Jun 2019 - present</span>
+                                                <p>Biman Bangladesh Airlines <br>HSIA, Biman Administrative Building</p>
+                                                <hr>
+
+                                                <h6>SENIOR FRONTEND DEVELOPER</h6>
+                                                <span><i class="ion-android-calendar"></i> Jan 2019 - May 2019</span>
+                                                <p>Nxt IT Solutions <br>114/C D,B Road, shehora, <br> Mymensingh, Bangladesh <br>
+                                                Ph: +8801973-826676 <br>Website: <a href="https://www.nxtitsol.com" target="blank" class="text-light">https://www.nxtitsol.com</a></p>
+                                                <hr>
+
+                                                <h6>FRONTEND DEVELOPER</h6>
+                                                <span><i class="ion-android-calendar"></i> May 2018 - Dec 2018</span>
+                                                <p>Maxsop <br>5B Green House, 27/2 Ram Babu Road, <br>Mymensingh Sadar - 2200, <br>
+                                                Mymensingh, Bangaldesh <br> Ph: +880 1786 494650<br>Website: <a href="http://www.maxsop.com" target="blank" class="text-light">http://www.maxsop.com</a></p>
+                                                <hr>
+
+                                                <h6>WEB DEVELOPER (Internship)</h6>
+                                                <span><i class="ion-android-calendar"></i> Jul 2017 - Dec 2017</span>
+                                                <p>Freelance IT Lab <br>22 Coronation Road, Sankipara, <br> Mymensingh <br> Mobile: 01839 973100 <br> Phone: 091-63838 <br>Website: <a href="https://www.freelanceitlab.com" target="blank" class="text-light">https://www.freelanceitlab.com</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <!-- education -->
+                                        <div class="card">
+                                            <div class="head">
+                                                <h5 class="m-0 text-center"><i class="ion-university"></i> EDUCATION</h5>
+                                            </div>
+                                            <div class="desc">
+                                                <h6>BSC In Engineering</h6>
+                                                <span><i class="ion-android-calendar"></i> studying</span>
+                                                <p>Department: CSE <br> Institution: Prime University <br>114/116 Mazar Road, Mirpur-1,
+                                                Dhaka 1216, Bangladesh</p>
+                                                <hr>
+
+                                                <h6>Diploma In Engineering</h6>
+                                                <span><i class="ion-android-calendar"></i> Passing Year: 2018</span>
+                                                <p>Department: Computer Technology <br>Result: 2.91 <br> Institution: Kishoreganj Polytechnic Institute <br>karimganj, kishoreganj</p>
+                                                <hr>
+
+                                                <h6>S.S.C (voc)</h6>
+                                                <span><i class="ion-android-calendar"></i> Passing Year: 2011</span>
+                                                <p>Department: General Electronics <br>Result: 4.34 <br> Institution: Jamalpur Technical School And College <br>Jamalpur Sadar, Jamalpur</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- contact -->
+                        <div class="menu_content" id="contact_content">
+                            <div class="container-fluid">
+                                <div class="cancel"><i class="ion-android-cancel"></i></div>
+                                <h1 class="text-center mb-4 mt-3">Contact <span>Me</span></h1>
+                                <div class="row">
+                                    <div class="col-md-10 offset-md-1">
+                                        <div class="contact_desc">
+                                            <div class="row">
+                                                <div class="col-md-7">
+                                                    <h4>PHONE</h4>
+                                                    <p><i class="ion-android-call"></i> <a href="tel:+8801960584877">+8801960584877</a></p>
+                                                    
+                                                    <h4>EMAIL</h4>
+                                                    <p><i class="ion-android-mail"></i> <a href="mailto:ubaidurrahman38@gmail.com">ubaidurrahman38@gmail.com</a></p>
+                                                    
+                                                    <h4>SKYPE</h4>
+                                                    <p><i class="ion-social-skype"></i> <a href="skype:folkapu38?chat">folkapu38</a></p>
+                                                    
+                                                    <h4>ADDRESS</h4>
+                                                    <p class="mb-md-0"><i class="ion-android-locate"></i> <a href="#">Dhaka, Bangladesh</a></p>
+                                                </div>
+                                                <div class="col-md-5">
+                                                    <h4>FACEBOOK</h4>
+                                                    <p><i class="ion-social-facebook"></i> <a href="https://www.facebook.com/ubaidur.rahmanapu" target="blank">/ubaidur.rahmanapu</a></p>
+                                                    
+                                                    <h4>LINKEDEN</h4>
+                                                    <p><i class="ion-social-linkedin"></i> <a href="https://www.linkedin.com/in/ubaidurrahmanapu/" target="blank">/in/ubaidurrahmanapu/</a></p>
+                                                    
+                                                    <h4>GITHUB</h4>
+                                                    <p class="mb-0"><i class="ion-social-github"></i> <a href="https://github.com/ubaidurrahmanapu" target="blank">/ubaidurrahmanapu</a>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <!-- script -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
