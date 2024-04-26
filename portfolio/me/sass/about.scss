@@ -1,0 +1,53 @@
+@import 'partials/init.scss';
+@import 'partials/variable.scss';
+
+/* about_banner start */
+.about_banner{
+    .heading{
+        h1{
+            color: $white-primary;
+            font-weight: bold;
+        }
+        p{
+            color: $white-secondary;
+        }
+    }
+}
+/* about_banner end */
+
+
+
+
+/* about_area start */
+.about_area{
+    background: $white-primary;
+    padding: 50px 0;
+    img{
+        max-width: 350px;
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+    }
+    .about_desc{
+        h1{
+            margin: 30px 0 20px;
+        }
+        button{
+            background: $primary-light;
+            text-transform: uppercase;
+            padding: 12px 55px;
+            border: 1px solid $primary-light;
+            border-radius: 30px;
+            font-size: 13px;
+            font-weight: bold;
+            color: $white-secondary;
+            transition: all .7s;
+            margin: 20px 0 0;
+            &:hover{
+                background: $white-primary;
+                color: $black-dark;
+            }
+        }
+    }
+}
+/* about_area end */

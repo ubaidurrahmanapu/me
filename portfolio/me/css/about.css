@@ -1,0 +1,70 @@
+*, ::after, ::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p {
+  color: #777777;
+}
+
+h2, h3 {
+  color: #222222;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.heading {
+  text-align: center;
+  padding: 50px 0;
+}
+.heading h1 {
+  color: #777777;
+}
+
+/* about_banner start */
+.about_banner .heading h1 {
+  color: #FFFFFF;
+  font-weight: bold;
+}
+.about_banner .heading p {
+  color: #F9F9FF;
+}
+
+/* about_banner end */
+/* about_area start */
+.about_area {
+  background: #FFFFFF;
+  padding: 50px 0;
+}
+.about_area img {
+  max-width: 350px;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+.about_area .about_desc h1 {
+  margin: 30px 0 20px;
+}
+.about_area .about_desc button {
+  background: #F67590;
+  text-transform: uppercase;
+  padding: 12px 55px;
+  border: 1px solid #F67590;
+  border-radius: 30px;
+  font-size: 13px;
+  font-weight: bold;
+  color: #F9F9FF;
+  transition: all 0.7s;
+  margin: 20px 0 0;
+}
+.about_area .about_desc button:hover {
+  background: #FFFFFF;
+  color: #222222;
+}
+
+/* about_area end */
+
+/*# sourceMappingURL=about.css.map */

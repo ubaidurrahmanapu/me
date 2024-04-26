@@ -1,0 +1,540 @@
+@import 'partials/init.scss';
+@import 'partials/variable.scss';
+
+
+/* nav style start */
+
+.nav_custom{
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+    background: $white-primary;
+    button{
+        outline: 0;
+        span{
+            color: $blue;
+            font-size: 30px;
+        }
+    }
+    .navbar-brand{
+        img{
+            width: 100%;
+        }
+    }
+    ul{
+        li{
+            a{
+                text-transform: uppercase;
+                font-size: 14px;
+                color: $blue;
+                transition: all .7s;
+                &:hover{
+                    color: $black;
+                }
+            }
+        }
+    }
+    &.active{
+        background: $black;
+    }
+}
+
+
+
+/* responsive style */
+@media screen and (min-width: 992px) {
+    .navbar-nav {
+        width: 100%;
+        display: inline-block;
+        .nav-cover {
+            float: right;
+            li{
+                float: left;
+            }
+        }
+    }
+    
+}
+@media screen and (max-width: 480px){
+    .navbar-brand{
+        img{
+            max-width: 200px;
+            width: 100%;
+        }
+    }
+}
+/* nav style end */
+
+
+
+/* header style start */
+header{
+    overflow: hidden;
+    .item{
+        position: relative;
+        figure{
+            img{
+                width: 100%;
+                height: 100vh;
+                object-fit: cover;
+                
+            }
+            .image_cover{
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                left: 0;
+                top: 0;
+                background: rgba($blue, .6);
+            }
+            figcaption{
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                left: 0;
+                top: 50%;
+                color: $white-primary;
+                h1{
+                    text-align: center;
+                }
+                p{
+                    text-align: center;
+                }
+            }
+        }
+    }
+    .owl-theme .owl-nav.disabled+.owl-dots{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        
+        
+    }
+    .owl-theme .owl-dots .owl-dot{
+        outline: 0;
+    }
+}
+@media screen and (max-width: 480px){
+    header .item figure figcaption{
+        top: 30%;
+    }
+}
+/* header style end */
+
+
+
+
+
+/* about style start */
+.about{
+    padding: 70px 0 100px;
+    h2{
+        
+    }
+    p{
+        text-align: justify;
+    }
+    img{
+        width: 100%;
+    }
+}
+/* about style end */
+
+
+
+
+
+
+/* counterup style start */
+.numbers{
+    padding: 0;
+    background: url(../images/counterup.jpg);
+    background-position: center;
+    .cover{
+        background: rgba($blue, .5);
+        padding: 50px 0;
+        .item{
+            background: rgba($white-primary, .2);
+            color: $white-primary;
+            margin: 20px 0;
+            padding: 30px 0;
+            transition: all .5s;
+            &:hover{
+                background: rgba($blue, .8);
+            }
+        }
+    }
+    
+}
+/* counterup style end */
+
+
+
+
+
+
+/* service style start */
+.service{
+    padding: 90px 0;
+    .item{
+        text-align: center;
+        border:1px solid darken($white-primary, 8%);
+        padding: 30px;
+        margin: 0 auto;
+        transition: all .5s;
+        &:hover{
+            box-shadow: 0px 0px 10px 4px darken($white-primary, 15%);
+        }
+        i{
+            font-size: 50px;
+            color: $blue;
+        }
+    }
+    .dark-bg{
+        background: darken($white-primary, 5%);
+    }
+}
+/* service style end */
+
+
+
+
+/* menu style start */
+.menu{
+    background: $white-secondary;
+    padding: 90px 0 70px;
+    .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+        border-color: $white-primary;
+    }
+    .nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover{
+        border-color: $white-primary;
+        background: $blue;
+        color: $white-primary;
+    }
+    ul{
+        max-width: 375px;
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        border-bottom: none;
+        li{
+            a{
+                font-size: 20px;
+                border: 1px solid darken($white-primary, 10%) !important;
+                border-radius: 0 !important;
+                margin: 0 10px;
+                color: $black;
+                transition: all .7s;
+            }
+        }
+        
+    }
+    .menu_item{
+        overflow: hidden;
+        margin: 30px 0;
+        img{
+            float: left;
+            border-radius: 50%;
+            margin-right: 30px;
+        }
+        h5{
+            margin: 25px 0;
+            span{
+                font-size: 28px;
+                padding-left: 25px;
+                color: $blue;
+            }
+        }
+    }
+}
+/* menu style end */
+
+
+
+
+
+/* chef style start */
+.chef{
+    padding: 70px 0;
+    figure{
+        position: relative;
+        img{
+            width: 100%;
+        }
+        figcaption{
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+            left: 0;
+            padding: 10px;
+            background: rgba($black, .5);
+            h4{
+                text-align: center;
+                color: $white-primary;
+            }
+        }
+    }
+}
+/* chef style end */
+
+
+
+
+/* reservation style start */
+.reservation{
+    background: $white-secondary;
+    padding: 80px 0;
+    form{
+        i{
+            position: absolute;
+            font-size: 18px;
+            line-height: 45px;
+            padding-left: 15px;
+        }
+        input, textarea{
+            padding:10px 10px 10px 35px;
+            border-radius: 0;
+            &:hover{
+                border-color: $blue;
+            }
+        }
+    }
+}
+/* reservation style end */
+
+
+
+
+
+
+/* gallery style start */
+.gallery{
+    padding: 80px 0;
+    figure{
+        position: relative;
+        margin-bottom: 30px;
+        &:hover a{
+            opacity: 0;
+        }
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 10px;
+            
+        }
+        
+        a{
+            border-radius: 10px;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            background: rgba(34,34,34,.4);
+            z-index: 9;
+            transition: all .9s;
+            
+        }
+       figcaption{
+            position: absolute;
+            width: 100%;
+            height: auto;
+            left: 0;
+            bottom: 0;
+            z-index: 99;
+            padding: 5px 30px;
+            cursor: pointer;
+            h4{
+                color: $white-primary;
+            }
+            p{
+                color: $white-primary;
+            }
+        }
+    }
+    .object-fit{
+        height: 470px;
+    }
+    .object-fit-2{
+        height: 220px;
+    }
+}
+
+/* gallery style end */
+
+
+
+
+
+/* testimonial style start */
+.testimonial{
+    padding: 70px 0;
+    background: $white-secondary;
+    .slider{
+        background: $white-primary;
+        padding: 10px;
+        margin-bottom: 30px;
+        img{
+            border-radius: 50%;
+            max-width: 100px;
+            width: 100%;
+        }
+        h5{
+            margin: 0;
+        }
+        p{
+            margin-bottom: 5px;
+        }
+    }
+}
+/* testimonial style end */
+
+
+
+
+
+
+
+/* contact style start */
+.contact{
+    padding: 80px 0;
+    form{
+        input, textarea{
+            padding:10px 10px 10px 20px;
+            margin-bottom: 25px;
+            background: $white-secondary;
+            border-radius: 0;
+            &:hover{
+                border-color: $blue;
+            }
+            &:focus{
+                background: $white-secondary;
+            }
+        }
+    }
+}
+/* contact style end */
+
+
+
+
+
+/* map style start */
+.map{
+    iframe{
+        margin-bottom: -7px;
+    }
+}
+/* map style end */
+
+
+
+
+
+
+/* footer style start */
+footer{
+    font-family: 'Roboto', sans-serif;
+    background: $black;
+    padding: 30px 0 30px;
+    color: darken($white-primary, 10%);
+    .opening{
+        overflow: hidden;
+        p{
+            margin: 0;
+            font-weight: bold;
+        }
+        span{
+            float: right;
+        }
+    }
+    .subscribe_box,{
+        display: flex;
+        background: $white-primary;
+        border: none;
+        padding: 0;
+        overflow: hidden;
+       
+        input{
+            border: none;
+        }
+        .subscribe_button{
+            padding: 0 20px;
+            outline: 0;
+            cursor: pointer;
+            font-size: 40px;
+            line-height: 40px;
+            background: darken($white-primary, 15%);
+            border: 0;
+        }
+    }
+    .social{
+        ul{
+            list-style-type: none;
+            li{
+                display: inline-block;
+                a{
+                    font-size: 28px;
+                    margin: 10px 15px 10px 0;
+                    &:hover{
+                        color: darken( $white-primary, 30%);
+                    }
+                }
+            }
+        }
+    }
+    h6{
+        margin: 30px 0;
+        font-size: 16px;
+    }
+    a{
+        display: block;
+        color: $white-primary;
+        transition: all .7s;
+        margin-bottom: 15px;
+        font-size: 14px;
+        &:hover{
+            color: $blue;
+        }
+
+    }
+    p{
+        line-height: 28px;
+        font-size: 14px;
+    }
+    address{
+        display: flex;
+        .icon{
+            margin-right: 30px;
+            i{
+                
+            }
+        }
+        .details{
+            span{
+                font-size: 14px;
+            }
+        }
+    }
+
+    .footer_bottom{
+        border-top: 1px solid darken($white-primary, 55%);
+        text-align: center;
+        padding-top: 30px;
+        margin-top: 30px;
+        p{
+            margin: 0;
+            font-size: 12px;
+        }
+    }
+
+}
+/* footer style end */
+
+
+
+
+

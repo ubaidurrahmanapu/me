@@ -1,0 +1,151 @@
+*, ::after, ::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+h2 {
+  font-size: 2.3rem;
+}
+
+.section_heading {
+  margin: 0 auto;
+  max-width: 550px;
+  width: 100%;
+}
+.section_heading h2 span {
+  font-weight: 600;
+}
+.section_heading p {
+  margin-bottom: 5rem;
+}
+
+.custom_button {
+  position: relative;
+  display: block;
+  background: #774792;
+  color: #fff;
+  width: 180px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  padding-left: 40px;
+  border-radius: 20px;
+  text-decoration: none !important;
+  transition: all 0.3s;
+  margin: 40px auto 0;
+}
+.custom_button:hover {
+  color: #fff;
+  background: #925cb0;
+}
+.custom_button i {
+  position: absolute;
+  height: 100%;
+  width: 40px;
+  left: 0;
+  display: block;
+  background: rgba(34, 34, 34, 0.2);
+  border-radius: 50%;
+}
+
+/* page_heading start */
+.page_heading {
+  background: url(../images/spa/9.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.page_heading .cover {
+  background: rgba(34, 34, 34, 0.5);
+}
+.page_heading .cover h1 {
+  padding: 10rem 0 8rem;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+/* page_heading end */
+/* nav style start */
+@media screen and (min-width: 992px) {
+  .dropdown:hover .dropdown-menu {
+    display: block !important;
+  }
+
+  .nav-link {
+    padding: 1.5rem 0;
+  }
+}
+@media screen and (max-width: 992px) {
+  .nav_custom {
+    background: #222;
+    padding: 0.5rem 0;
+  }
+
+  .navbar-nav {
+    padding: 0 1rem;
+  }
+
+  .nav_button {
+    display: none;
+  }
+
+  .nav_custom .navbar-brand {
+    display: inline-block;
+    margin-left: 1rem;
+  }
+}
+/* nav style end */
+/*header start*/
+@media screen and (max-width: 992px) {
+  header .owl-theme .owl-dots {
+    bottom: 10px;
+    left: 0;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 576px) {
+  header .item .head_content {
+    top: 30%;
+  }
+}
+/*header end*/
+/*about start*/
+@media screen and (max-width: 992px) {
+  .about img {
+    display: none;
+  }
+}
+/*about end*/
+/*price_table start*/
+@media screen and (max-width: 767px) {
+  .owl-carousel .owl-stage-outer {
+    z-index: 1 !important;
+  }
+
+  .owl-carousel .owl-nav {
+    top: 50% !important;
+    z-index: 2 !important;
+    width: 100%;
+    left: 0;
+  }
+}
+/*price_table end*/
+/*contact start*/
+@media screen and (max-width: 992px) {
+  .contact img {
+    position: static;
+  }
+}
+/*contact end*/
+
+/*# sourceMappingURL=responsive.css.map */

@@ -1,0 +1,114 @@
+@import 'partials/init.scss';
+@import 'partials/variable.scss';
+
+
+.contact_banner{
+    .heading{
+        h1{
+            color: $white-primary;
+            font-weight: bold;
+        }
+        p{
+            color: $white-secondary;
+        }
+    }
+}
+
+
+.contact_area{
+    background: $white-secondary;
+    padding: 90px 0 45px;
+    form{
+        input{
+            margin-bottom: 20px;
+            padding: 15px;
+            outline: 0;
+            box-shadow: none;
+            &:focus{
+                outline: 0;
+            box-shadow: none;
+            }
+        }
+        textarea{
+            &:focus{
+                outline: 0;
+            box-shadow: none;
+            }
+        }
+        button{
+            background: $primary-light;
+            text-transform: uppercase;
+            padding: 12px 55px 10px;
+            border: 1px solid $primary-light;
+            border-radius: 8px;
+            font-size: 13px;
+            font-weight: bold;
+            color: $white-secondary;
+            transition: all .7s;
+            margin: 30px 0 0;
+            &:hover{
+                background: none;
+                color: $black-dark;
+            }
+        }
+    }
+    .address_area{
+        padding-top: 50px;
+        .left {
+            width: 100%;
+            address {
+                text-align: right;
+                display: inline-block;
+                width: 100%;
+                overflow: hidden;
+                .icon {
+                    float: right;
+                    font-size: 45px;
+                    line-height: 45px;
+                    margin-left: 30px;
+                }
+                .details {
+                    float: right;
+                }
+            }
+        }
+
+
+
+
+
+        .right {
+            address{
+                display: inline-block;
+                overflow: hidden;
+                width: 100%;
+                .icon{
+                    float: left;
+                    font-size: 45px;
+                    line-height: 45px;
+                    margin-right: 30px;
+                }
+            }
+        }
+
+        
+    }
+}
+
+
+/* responsive */
+@media screen and (max-width: 992px){
+    .left{
+        address{
+            text-align: left !important;
+            .icon{
+                float: left !important;
+                margin-left: 0px !important;
+                margin-right: 30px;
+            }
+            .details{
+                float: left !important;
+            }
+        }
+    }
+}

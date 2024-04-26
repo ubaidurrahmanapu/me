@@ -1,0 +1,22 @@
+@import 'variable.scss';
+*, ::after, ::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p {
+    color:$black-light;
+}
+h2, h3 {
+    color:$black-dark;
+}
+ul{
+    list-style-type: none;
+}
+.heading{
+    text-align: center;
+    padding: 50px 0;
+    h1{
+        color:$black-light;
+    }
+}

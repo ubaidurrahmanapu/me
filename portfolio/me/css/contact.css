@@ -1,0 +1,117 @@
+*, ::after, ::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p {
+  color: #777777;
+}
+
+h2, h3 {
+  color: #222222;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.heading {
+  text-align: center;
+  padding: 50px 0;
+}
+.heading h1 {
+  color: #777777;
+}
+
+.contact_banner .heading h1 {
+  color: #FFFFFF;
+  font-weight: bold;
+}
+.contact_banner .heading p {
+  color: #F9F9FF;
+}
+
+.contact_area {
+  background: #F9F9FF;
+  padding: 90px 0 45px;
+}
+.contact_area form input {
+  margin-bottom: 20px;
+  padding: 15px;
+  outline: 0;
+  box-shadow: none;
+}
+.contact_area form input:focus {
+  outline: 0;
+  box-shadow: none;
+}
+.contact_area form textarea:focus {
+  outline: 0;
+  box-shadow: none;
+}
+.contact_area form button {
+  background: #F67590;
+  text-transform: uppercase;
+  padding: 12px 55px 10px;
+  border: 1px solid #F67590;
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: bold;
+  color: #F9F9FF;
+  transition: all 0.7s;
+  margin: 30px 0 0;
+}
+.contact_area form button:hover {
+  background: none;
+  color: #222222;
+}
+.contact_area .address_area {
+  padding-top: 50px;
+}
+.contact_area .address_area .left {
+  width: 100%;
+}
+.contact_area .address_area .left address {
+  text-align: right;
+  display: inline-block;
+  width: 100%;
+  overflow: hidden;
+}
+.contact_area .address_area .left address .icon {
+  float: right;
+  font-size: 45px;
+  line-height: 45px;
+  margin-left: 30px;
+}
+.contact_area .address_area .left address .details {
+  float: right;
+}
+.contact_area .address_area .right address {
+  display: inline-block;
+  overflow: hidden;
+  width: 100%;
+}
+.contact_area .address_area .right address .icon {
+  float: left;
+  font-size: 45px;
+  line-height: 45px;
+  margin-right: 30px;
+}
+
+/* responsive */
+@media screen and (max-width: 992px) {
+  .left address {
+    text-align: left !important;
+  }
+  .left address .icon {
+    float: left !important;
+    margin-left: 0px !important;
+    margin-right: 30px;
+  }
+  .left address .details {
+    float: left !important;
+  }
+}
+
+/*# sourceMappingURL=contact.css.map */

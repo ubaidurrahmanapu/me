@@ -1,0 +1,77 @@
+@import 'variable.scss';
+*, ::after, ::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul{
+    list-style-type: none;
+    
+}
+h2 {
+    font-size: 2.3rem;
+}
+.section_heading {
+    margin: 0 auto;
+    max-width: 550px;
+    width: 100%;
+    h2 {
+        span {
+            font-weight: 600;
+        }
+    }
+    p {
+        margin-bottom: 5rem;
+    }
+}
+.custom_button {
+    position: relative;
+    display: block;
+    background: $primary-color;
+    color: $white-primary;
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    padding-left: 40px;
+    border-radius: 20px;
+    text-decoration: none !important;
+    transition: all .3s;
+    margin: 40px auto 0;
+    &:hover {
+        color: $white-primary;
+        background: lighten($primary-color, 10%);
+    }
+    i {
+        position: absolute;
+        height: 100%;
+        width: 40px;
+        left: 0;
+        display: block;
+        background: rgba($black, .2);
+        border-radius: 50%;
+    }
+}
+
+
+/* page_heading start */
+.page_heading {
+    background: url(../images/spa/9.jpg);
+    background-size: cover;
+    background-position: center;
+    .cover {
+        background: rgba($black, .5);
+        h1 {
+            padding: 10rem 0 8rem;
+            text-align: center;
+            color: $white-primary;
+            font-weight: bold;
+            margin-bottom: 0;
+        }
+    }
+}
+/* page_heading end */

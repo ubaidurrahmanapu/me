@@ -1,0 +1,44 @@
+@import 'variable.scss';
+*, ::after, ::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+ul{
+    list-style-type: none;
+    
+}
+
+.custom_button {
+    border-radius: 0;
+    outline: 0;
+    background: $primary-color;
+}
+
+input, textarea {
+    border: 1px solid $white-secondary;
+    border-radius: 0 !important;
+    padding: 10px 20px;
+    outline: 0;
+}
+.form-control:focus {
+    box-shadow: none;
+    border: 1px solid $primary-color;
+}
+
+
+/* page_header style start*/
+.page_header {
+    background: url(../images/pagehead.jpg);
+    background-size: cover;
+    background-position: center;
+    .cover {
+        padding: 10rem 0 8rem;
+        background: rgba($black, .4);
+    }
+}
+/* page_header style end*/

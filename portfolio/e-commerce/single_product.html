@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- favicon -->
+    <link rel="icon" href="images/favicon/favicon.png" sizes="16x16 32x32" type="image/png">
+    <title>E-commerce</title>
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,600" rel="stylesheet">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <!-- ionicons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.0/css/ionicons.min.css">
+    <!-- aside nav css-->
+    <link rel="stylesheet" href="css/aside_nav.css">
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+    <!-- owl carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <!-- counter -->
+    <link rel="stylesheet" href="vendors/Counting-Plugin/css/style.css">
+    <!-- slick slider -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />
+
+
+    <!-- easy zoom -->
+    <link rel="stylesheet" href="vendors/EasyZoom/css/easyzoom.css" />
+
+    
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!-- Sidebar  -->
+    <nav id="sidebar">
+        <div id="dismiss">
+            <i class="ion-arrow-left-c"></i>
+        </div>
+    
+        <div class="sidebar-header">
+            <h3>Menu</h3>
+        </div>
+    
+        <ul class="list-unstyled components">
+            <li class="active">
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="#">Food</a>
+            </li>
+            <li>
+                <a href="#electronicsSubmenu" data-toggle="collapse" aria-expanded="false">Electronics <i class="ion-android-arrow-dropdown"></i></a>
+                <ul class="collapse list-unstyled" id="electronicsSubmenu">
+                    <li>
+                        <a href="#">Laptop</a>
+                    </li>
+                    <li>
+                        <a href="#">Mobile</a>
+                    </li>
+                    <li>
+                        <a href="#">Camera</a>
+                    </li>
+                    <li>
+                        <a href="#">Headphone</a>
+                    </li>
+                    <li>
+                        <a href="#">Smart TV</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#ClothingSubmenu" data-toggle="collapse" aria-expanded="false">Clothing <i class="ion-android-arrow-dropdown"></i></a>
+                <ul class="collapse list-unstyled" id="ClothingSubmenu">
+                    <li>
+                        <a href="#">Male</a>
+                    </li>
+                    <li>
+                        <a href="#">Female</a>
+                    </li>
+                    <li>
+                        <a href="#">Kids</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false">Pages <i class="ion-android-arrow-dropdown"></i></a>
+                <ul class="collapse list-unstyled" id="pageSubmenu">
+                    <li>
+                        <a href="single_product.html">Product Single</a>
+                    </li>
+                    <li>
+                        <a href="blog_single.html">Blog Single</a>
+                    </li>
+                    <li>
+                        <a href="#">Page 3</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="blog.html">Blog</a>
+            </li>
+            <li>
+                <a href="#">Gallery</a>
+            </li>
+            <li>
+                <a href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <!-- Sidebar  -->
+
+
+
+
+
+    <!-- Page Content  -->
+    <div id="content">
+        <nav>
+            <!-- contact nav -->
+            <div class="contact-nav">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-9">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <i class="ion-ios-telephone"></i>
+                                    <a href="tel:+1 123-123-1234">+1 123-123-1234</a>
+                                </div>
+                                <div class="col-lg-4">
+                                    <i class="ion-ios-email"></i>
+                                    <a href="mailto:info@mymail.com">info@mymail.com</a>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div style="white-space: nowrap;">
+                                        <i class="ion-android-pin"></i>
+                                        <span>NY 11231, USA</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="social">
+                                <ul class="mb-0 d-flex justify-content-lg-end">
+                                    <li><a href=""><i class="ion-social-facebook"></i></a></li>
+                                    <li><a href=""><i class="ion-social-skype"></i></a></li>
+                                    <li><a href=""><i class="ion-social-googleplus"></i></a></li>
+                                    <li><a href=""><i class="ion-social-youtube"></i></a></li>
+                                    <li><a href="" class="mr-0"><i class="ion-social-linkedin"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end contact nav -->
+            <div class="container">
+                <div class="nav_up">
+                    <a id="sidebarCollapse" class="responsive_icon"><i class="ion-android-menu"></i></a>
+                    <div class="row">
+                        <div class="col-lg-2 text-center">
+                            <a href="index.html" class="brand">
+                                <img src="images/logo.png" alt="logo" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="col-lg-7 offset-lg-1 mt-3 mt-lg-0">
+                            <div class="search_box"> 
+                                <form action="">
+                                    <div class="row">
+                                        <div class="col-md-8 col-12 pr-md-0 mb-3 mb-md-0">
+                                            <input type="text" name="" placeholder="Find Your Product">
+                                        </div>
+                                        <div class="col-md-3 col-9 px-md-0 pr-0">
+                                            <select>
+                                                <option value="All Categories">All Categories</option>
+                                                <option value="Food">Food</option>
+                                                <option value="Pet">Pet</option>
+                                                <optgroup label="Clothing">
+                                                    <option value="Male">Male</option>
+                                                    <option value="Female">Female</option>
+                                                </optgroup>
+                                            </select>
+                                        </div>
+                                        <div class="col-md-1 col-3 pl-0">
+                                            <button class="button"><i class="ion-android-search"></i></button>
+                                        </div>
+                                        <!-- this search_list show when user type on input -->
+                                        <div class="search_list">
+                                            <ul>
+                                                <li>
+                                                    <a href="">
+                                                        <div class="content">
+                                                            <img src="images/search_list.jpg" alt="image" class="img-fluid">
+                                                            <article>
+                                                                <h5>Samsung</h5>
+                                                                <p>galaxy note 9</p>
+                                                            </article>
+                                                        </div>
+                                                        <div class="price">
+                                                            <span>(12% off)</span>
+                                                            <strong>144 TK.</strong>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="">
+                                                        <div class="content">
+                                                            <img src="images/search_list.jpg" alt="image" class="img-fluid">
+                                                            <article>
+                                                                <h5>Samsung</h5>
+                                                                <p>galaxy note 9</p>
+                                                            </article>
+                                                        </div>
+                                                        <div class="price">
+                                                            <span>(12% off)</span>
+                                                            <strong>144 TK.</strong>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="">
+                                                        <div class="content">
+                                                            <img src="images/search_list.jpg" alt="image" class="img-fluid">
+                                                            <article>
+                                                                <h5>Samsung</h5>
+                                                                <p>galaxy note 9</p>
+                                                            </article>
+                                                        </div>
+                                                        <div class="price">
+                                                            <span>(12% off)</span>
+                                                            <strong>144 TK.</strong>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="">
+                                                        <div class="content">
+                                                            <img src="images/search_list.jpg" alt="image" class="img-fluid">
+                                                            <article>
+                                                                <h5>Samsung</h5>
+                                                                <p>galaxy note 9</p>
+                                                            </article>
+                                                        </div>
+                                                        <div class="price">
+                                                            <span>(12% off)</span>
+                                                            <strong>144 TK.</strong>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="">
+                                                        <div class="content">
+                                                            <img src="images/search_list.jpg" alt="image" class="img-fluid">
+                                                            <article>
+                                                                <h5>Samsung</h5>
+                                                                <p>galaxy note 9</p>
+                                                            </article>
+                                                        </div>
+                                                        <div class="price">
+                                                            <span>(12% off)</span>
+                                                            <strong>144 TK.</strong>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="">
+                                                        <div class="content">
+                                                            <img src="images/search_list.jpg" alt="image" class="img-fluid">
+                                                            <article>
+                                                                <h5>Samsung</h5>
+                                                                <p>galaxy note 9</p>
+                                                            </article>
+                                                        </div>
+                                                        <div class="price">
+                                                            <span>(12% off)</span>
+                                                            <strong>144 TK.</strong>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col-lg-2">
+                            <div class="attribute">
+                                <a href="">
+                                    <i class="ion-ios-heart-outline"></i>
+                                </a>
+                                <a href="" class="cart" id="product-menu"><i class="ion-bag"></i></a>
+                                <div class="position-relative">
+                                    <div class="product-menu">
+                                        <figure>
+                                            <img src="images/cart_menu.png" class="img-fluid" alt="">
+                                            <div>
+                                                <p>1 X Omnis dicam mentitum</p>
+                                                <p>$14.25</p>
+                                                <p>Size: S</p>
+                                                <p>Color: Orange</p>
+                                            </div>
+                                            <div class="delete">
+                                                <i class="ion-close-round"></i>
+                                            </div>
+                                        </figure>
+                                
+                                        <div class="checkout">
+                                            <table class="table">
+                                                <tbody>
+                                                    <tr>
+                                                        <th>Subtotal</th>
+                                                        <td>$89.57</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>Shipping</th>
+                                                        <td>$7.00</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>Taxes</th>
+                                                        <td>$0.00</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                            <button type="button" name="button" class="btn">Checkout</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="nav_down">
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <div class="category">
+                                <div class="dropdown">
+                                    <button type="button" data-toggle="dropdown">
+                                    <i class="ion-android-menu"></i> All Categories
+                                    </button>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#"><i class="ion-android-restaurant"></i> Food</a>
+                                        <!-- category menu -->
+                                        <div class="category_menu">
+                                            <a href="" class="category_item"><i class="ion-ios-monitor-outline"></i> Electronic</a>
+                                            <div class="category_list">
+                                                <ul>
+                                                    <li><a href="">Laptop</a></li>
+                                                    <li><a href="">Mobile</a></li>
+                                                    <li><a href="">Headphone</a></li>
+                                                    <li><a href="">Camera</a></li>
+                                                    <li><a href="">Samsung TV</a></li>
+                                                    <li><a href="">Laptop</a></li>
+                                                    <li><a href="">Mobile</a></li>
+                                                    <li><a href="">Headphone</a></li>
+                                                    <li><a href="">Camera</a></li>
+                                                    <li><a href="">Samsung TV</a></li>
+                                                    <li><a href="">Laptop</a></li>
+                                                    <li><a href="">Mobile</a></li>
+                                                    <li><a href="">Headphone</a></li>
+                                                    <li><a href="">Camera</a></li>
+                                                    <li><a href="">Samsung TV</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <!-- category menu -->
+                                        <a class="dropdown-item" href="#"><i class="ion-bowtie"></i> Clothing</a>
+                                        <a class="dropdown-item" href="#"><i class="ion-android-bicycle"></i> Ride</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="main_menu">
+                                <ul>
+                                    <li><a href="index.html">Home</a></li>
+                                    <li class="dropdown">
+                                        <a href="" data-toggle="dropdown">Pages</a>
+                                        <div class="dropdown-menu">
+                                            <a class="dropdown-item" href="single_product.html">Product Single</a>
+                                            <a class="dropdown-item" href="blog_single.html">Blog Single</a>
+                                            <a class="dropdown-item" href="#">page 3</a>
+                                        </div>
+                                    </li>
+                                    <li><a href="blog.html">Blog</a></li>
+                                    <li><a href="">Gallery</a></li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <a href="" class="promo_btn"> <span>Black Friday</span> <br>Get 45% off</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- nav end -->
+
+        
+        
+        <!-- single_product section start -->
+        <section class="single_product">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5">
+                        <div class="single_product_slider">
+                            <div class="slider_view">
+                                <div class="easyzoom easyzoom--overlay">
+                                    <a href="images/slider/2.jpg">
+                                        <img src="images/slider/2.jpg" alt="" class="w-100"/>
+                                    </a>
+                                </div>
+                                <div class="easyzoom easyzoom--overlay">
+                                    <a href="images/slider/3.jpg">
+                                        <img src="images/slider/3.jpg" alt="" class="w-100"/>
+                                    </a>
+                                </div>
+                                <div class="easyzoom easyzoom--overlay">
+                                    <a href="images/slider/4.jpg">
+                                        <img src="images/slider/4.jpg" alt="" class="w-100"/>
+                                    </a>
+                                </div>
+                                <div class="easyzoom easyzoom--overlay">
+                                    <a href="images/slider/2.jpg">
+                                        <img src="images/slider/2.jpg" alt="" class="w-100"/>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="slider_nav">
+                                <img src="images/slider/2.jpg" alt="image">
+                                <img src="images/slider/3.jpg" alt="image">
+                                <img src="images/slider/4.jpg" alt="image">
+                                <img src="images/slider/2.jpg" alt="image">
+                            </div>
+                        </div>
+                            
+
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="content">
+                            <h4 class="mt-5 mt-lg-0">Heavy Duty Anti Theft Vehicle</h4>
+                            <span>Categories:</span>
+                            <span><a href="">Beauty Products</a>,</span>
+                            <span><a href="">Foods & Drinks</a>,</span>
+                            <span><a href="">Grocery</a></span>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum qui accusamus nulla officia ratione possimus, a dolore, molestias tempora excepturi fugiat dolorem.</p>
+                            <strong>$200.00</strong>
+                            <div id="quantity" class="quantity">
+                                <b>Quantity</b>
+                                <div class="">
+                                    <button type="button" id="sub" class="sub">-</button>
+                                    <input type="number" id="1" value="1" min="1" max="5" readonly />
+                                    <button type="button" id="add" class="add">+</button>
+                                    <button class="cart_btn">Add To Cart</button>
+                                </div>
+                                <a href=""><i class="ion-ios-heart"></i></a>
+                                <a href=""><i class="ion-shuffle"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- single_product section end -->
+        
+        
+        
+        <!-- product_detials section start -->
+        <section class="product_detials">
+            <div class="container">
+                <div class="content">
+                    <ul class="nav nav-pills" id="pills-tab" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="pills-description-tab" data-toggle="pill" href="#pills-description" role="tab" aria-controls="pills-description"
+                                aria-selected="true">Description</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="pills-additional_info-tab" data-toggle="pill" href="#pills-additional_info" role="tab" aria-controls="pills-additional_info"
+                                aria-selected="false">Additional Info</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="pills-reviews-tab" data-toggle="pill" href="#pills-reviews" role="tab" aria-controls="pills-reviews"
+                                aria-selected="false">Reviews</a>
+                        </li>
+                    </ul>
+                    <hr>
+                    <div class="tab-content" id="pills-tabContent">
+                        <div class="tab-pane fade show active" id="pills-description" role="tabpanel" aria-labelledby="pills-description-tab">
+                            <div class="description">
+                                <p><strong>Product Description</strong></p>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae aperiam rerum placeat. Optio rem aliquam maiores dolor dolorem reprehenderit animi aut molestias voluptas nulla esse obcaecati hic ducimus, officia harum.</p>
+                                <p><b>Contains:</b> Does not contain any synthetic flavors</p>
+                                <p><b>Store:</b> In a Dry location at Room temperature</p>
+                                <p><b>Exterior Container:</b> Paper or Cool Box</p>
+                                <p><b>Package type:</b> Individual item or group</p>
+                                <p><b>Exterior container weight:</b> 10.0 ounces</p>
+                                <p><b>Item Number (DPCI):</b> 152-07-1258</p>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="pills-additional_info" role="tabpanel" aria-labelledby="pills-additional_info-tab">
+                            <div class="additional_info">
+                                <p><b class="text-muted">Quantity:</b> 1 kg, 2 kg, 3 kg</p>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="pills-reviews" role="tabpanel" aria-labelledby="pills-reviews-tab">
+                            <div class="reviews">
+                                <div class="review_desc">
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <div class="rate_detail">
+                                                <ul>
+                                                    <li>
+                                                        <span class="rate_title">5 Stars</span>
+                                                        <span class="rate_graph"></span>
+                                                        <div class="star_rating">
+                                                            <span class="ion-android-star"></span>
+                                                            <span class="ion-android-star"></span>
+                                                            <span class="ion-android-star"></span>
+                                                            <span class="ion-android-star"></span>
+                                                            <span class="ion-android-star"></span>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <span class="rate_title">4 Stars</span>
+                                                        <span class="rate_graph"></span>
+                                                        <div class="star_rating">
+                                                            <span class="ion-android-star"></span>
+                                                            <span class="ion-android-star"></span>
+                                                            <span class="ion-android-star"></span>
+                                                            <span class="ion-android-star"></span>
+                                                            <span class="ion-android-star-outline"></span>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <span class="rate_title">3 Stars</span>
+                                                        <span class="rate_graph"></span>
+                                                        <div class="star_rating">
+                                                            <span class="ion-android-star"></span>
+                                                            <span class="ion-android-star"></span>
+                                                            <span class="ion-android-star"></span>
+                                                            <span class="ion-android-star-outline"></span>
+                                                            <span class="ion-android-star-outline"></span>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <span class="rate_title">2 Stars</span>
+                                                        <span class="rate_graph"></span>
+                                                        <div class="star_rating">
+                                                            <span class="ion-android-star"></span>
+                                                            <span class="ion-android-star"></span>
+                                                            <span class="ion-android-star-outline"></span>
+                                                            <span class="ion-android-star-outline"></span>
+                                                            <span class="ion-android-star-outline"></span>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <span class="rate_title">1 Stars</span>
+                                                        <span class="rate_graph"></span>
+                                                        <div class="star_rating">
+                                                            <span class="ion-android-star"></span>
+                                                            <span class="ion-android-star-outline"></span>
+                                                            <span class="ion-android-star-outline"></span>
+                                                            <span class="ion-android-star-outline"></span>
+                                                            <span class="ion-android-star-outline"></span>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="rate_score">
+                                                <div class="star_rating">
+                                                    <span class="ion-android-star-outline"></span>
+                                                    <span class="ion-android-star-outline"></span>
+                                                    <span class="ion-android-star-outline"></span>
+                                                    <span class="ion-android-star-outline"></span>
+                                                    <span class="ion-android-star-outline"></span>
+                                                </div>
+                                                <div class="rate_score_description">
+                                                    <p>Average Star Rating: <span>0.0 out of 5</span>(0 vote)</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="comments">
+                                    <h5>Reviews</h5>
+                                    <p>There are no reviews yet.</p>
+                                </div>
+                                <div class="review_form">
+                                    <h5>Be the first to review “Heavy Duty Anti Theft Vehicle”</h5>
+                                    <p>Your email address will not be published. Required fields are marked *</p>
+                                    <form action="">
+                                        <div class="form-group">
+                                            <label for="name">Name *</label>
+                                            <input type="name" id="name" name="name" placeholder="Your Name" required>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="email">Email *</label>
+                                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                                        </div>
+                                        <div class="form-group">
+                                            <div class="rating">
+                                                <span>Your Rating</span>
+                                                <div class="star_rating">
+                                                    <span class="ion-android-star active"></span>
+                                                    <span class="ion-android-star"></span>
+                                                    <span class="ion-android-star"></span>
+                                                    <span class="ion-android-star"></span>
+                                                    <span class="ion-android-star"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="review">Review *</label>
+                                            <textarea name="review" id="review" rows="4" placeholder="Your Review" required></textarea>
+                                        </div>
+                                        <button>Submit</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- product_detials section end -->
+
+
+
+        <!-- related_product section start -->
+        <section class="related_product">
+            <div class="container">
+                <h4>Related products</h4>
+                <div class="owl-carousel related_product_slider ">
+                    <div class="product">
+                        <figure>
+                            <div class="star_rating">
+                                <span class="ion-android-star"></span>
+                                <span class="ion-android-star"></span>
+                                <span class="ion-android-star"></span>
+                                <span class="ion-android-star-half"></span>
+                                <span class="ion-android-star-outline"></span>
+                            </div>
+                            <div class="wishlist">
+                                <a href=""><i class="ion-ios-heart-outline"></i></a>
+                            </div>
+                            <a href="">
+                                <img src="images/product/8.jpg" alt="image" class="img-fluid w-100">
+                            </a>
+                            <figcaption>
+                                <span class="categoy">
+                                    <a href="">Beauty Products</a>
+                                    <a href="">Foods & Drinks</a>
+                                    <a href="">Grocery</a>
+                                </span>
+                                <h5 class="product_title">
+                                    <a href="">Heavy Duty Anti Theft Vehicle</a>
+                                </h5>
+                                <div class="price">
+                                    <span>$200.00</span>
+                                </div>
+                            </figcaption>
+                        </figure>
+                        <div class="cartlist">
+                            <a href=""><i class="ion-bag"></i> Add To Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <figure>
+                            <div class="star_rating">
+                                <span class="ion-android-star"></span>
+                                <span class="ion-android-star"></span>
+                                <span class="ion-android-star"></span>
+                                <span class="ion-android-star-half"></span>
+                                <span class="ion-android-star-outline"></span>
+                            </div>
+                            <div class="wishlist">
+                                <a href=""><i class="ion-ios-heart-outline"></i></a>
+                            </div>
+                            <a href="">
+                                <img src="images/product/2.jpg" alt="image" class="img-fluid w-100">
+                            </a>
+                            <figcaption>
+                                <span class="categoy">
+                                    <a href="">Beauty Products</a>
+                                    <a href="">Foods & Drinks</a>
+                                    <a href="">Grocery</a>
+                                </span>
+                                <h5 class="product_title">
+                                    <a href="">Heavy Duty Anti Theft Vehicle</a>
+                                </h5>
+                                <div class="price">
+                                    <span>$200.00</span>
+                                </div>
+                            </figcaption>
+                        </figure>
+                        <div class="cartlist">
+                            <a href=""><i class="ion-bag"></i> Add To Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <figure>
+                            <div class="star_rating">
+                                <span class="ion-android-star"></span>
+                                <span class="ion-android-star"></span>
+                                <span class="ion-android-star"></span>
+                                <span class="ion-android-star-half"></span>
+                                <span class="ion-android-star-outline"></span>
+                            </div>
+                            <div class="wishlist">
+                                <a href=""><i class="ion-ios-heart-outline"></i></a>
+                            </div>
+                            <a href="">
+                                <img src="images/product/3.jpg" alt="image" class="img-fluid w-100">
+                            </a>
+                            <figcaption>
+                                <span class="categoy">
+                                    <a href="">Beauty Products</a>
+                                    <a href="">Foods & Drinks</a>
+                                    <a href="">Grocery</a>
+                                </span>
+                                <h5 class="product_title">
+                                    <a href="">Heavy Duty Anti Theft Vehicle</a>
+                                </h5>
+                                <div class="price">
+                                    <span>$200.00</span>
+                                </div>
+                            </figcaption>
+                        </figure>
+                        <div class="cartlist">
+                            <a href=""><i class="ion-bag"></i> Add To Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <figure>
+                            <div class="star_rating">
+                                <span class="ion-android-star"></span>
+                                <span class="ion-android-star"></span>
+                                <span class="ion-android-star"></span>
+                                <span class="ion-android-star-half"></span>
+                                <span class="ion-android-star-outline"></span>
+                            </div>
+                            <div class="wishlist">
+                                <a href=""><i class="ion-ios-heart-outline"></i></a>
+                            </div>
+                            <a href="">
+                                <img src="images/product/1.jpg" alt="image" class="img-fluid w-100">
+                            </a>
+                            <figcaption>
+                                <span class="categoy">
+                                    <a href="">Beauty Products</a>
+                                    <a href="">Foods & Drinks</a>
+                                    <a href="">Grocery</a>
+                                </span>
+                                <h5 class="product_title">
+                                    <a href="">Heavy Duty Anti Theft Vehicle</a>
+                                </h5>
+                                <div class="price">
+                                    <span>$200.00</span>
+                                </div>
+                            </figcaption>
+                        </figure>
+                        <div class="cartlist">
+                            <a href=""><i class="ion-bag"></i> Add To Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <figure>
+                            <div class="star_rating">
+                                <span class="ion-android-star"></span>
+                                <span class="ion-android-star"></span>
+                                <span class="ion-android-star"></span>
+                                <span class="ion-android-star-half"></span>
+                                <span class="ion-android-star-outline"></span>
+                            </div>
+                            <div class="wishlist">
+                                <a href=""><i class="ion-ios-heart-outline"></i></a>
+                            </div>
+                            <a href="">
+                                <img src="images/product/7.jpg" alt="image" class="img-fluid w-100">
+                            </a>
+                            <figcaption>
+                                <span class="categoy">
+                                    <a href="">Beauty Products</a>
+                                    <a href="">Foods & Drinks</a>
+                                    <a href="">Grocery</a>
+                                </span>
+                                <h5 class="product_title">
+                                    <a href="">Heavy Duty Anti Theft Vehicle</a>
+                                </h5>
+                                <div class="price">
+                                    <span>$200.00</span>
+                                </div>
+                            </figcaption>
+                        </figure>
+                        <div class="cartlist">
+                            <a href=""><i class="ion-bag"></i> Add To Cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- related_product section end -->
+
+
+
+
+        <!-- footer section start -->
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <h4 class="mb-4">Office</h4>
+                        <p>Ferris St &, Coffey St, Brooklyn, NY 11231, USA</p>
+                        <p>Phone: <a href="tel:+1 123-123-1234">+1 123-123-1234</a></p>
+                        <p>Email: <a href="mailto:info@mymail.com">info@mymail.com</a></p>
+                        <ul class="social">
+                            <span>Follow us:</span>
+                            <li><a href=""><i class="ion-social-facebook"></i></a></li>
+                            <li><a href=""><i class="ion-social-twitter"></i></a></li>
+                            <li><a href=""><i class="ion-social-skype"></i></a></li>
+                            <li><a href=""><i class="ion-social-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3">
+                        <h4 class="mb-4">Our Stores</h4>
+                        <a href=""><i class="ion-ios-arrow-thin-right mr-1"></i> New York</a>
+                        <a href=""><i class="ion-ios-arrow-thin-right mr-1"></i> London SF</a>
+                        <a href=""><i class="ion-ios-arrow-thin-right mr-1"></i> Los Angeles</a>
+                        <a href=""><i class="ion-ios-arrow-thin-right mr-1"></i> Las Vegas</a>
+                    </div>
+                    <div class="col-lg-3">
+                        <h4 class="mb-4">Useful Links</h4>
+                        <a href="#about"><i class="ion-ios-arrow-thin-right mr-1"></i> Privacy Policy</a>
+                        <a href="#testimonial"><i class="ion-ios-arrow-thin-right mr-1"></i> Support Center</a>
+                        <a href=""><i class="ion-ios-arrow-thin-right mr-1"></i> Term & Conditions</a>
+                        <a href="#contact"><i class="ion-ios-arrow-thin-right mr-1"></i> Products Return</a>
+                    </div>
+                    <div class="col-lg-3">
+                        <h4 class="mb-4">Safe Payments</h4>
+                        <ul class="payment">
+                            <li><a href=""><img src="images/payment/palypal-1.png" alt="" class="img-fluid"></a></li>
+                            <li><a href=""><img src="images/payment/american_express-1.png" alt="" class="img-fluid"></a></li>
+                            <br>
+                            <li><a href=""><img src="images/payment/skril-1.png" alt="" class="img-fluid"></a></li>
+                            <li><a href=""><img src="images/payment/palypal-1.png" alt="" class="img-fluid"></a></li>
+                            <br>
+                            <li><a href=""><img src="images/payment/american_express-1.png" alt="" class="img-fluid"></a></li>
+                            <li><a href=""><img src="images/payment/skril-1.png" alt="" class="img-fluid"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_bottom">
+                <p>&copy; copyright All Right Reserved <a href="">Your Company</a></p>
+            </div>
+        </footer>
+        <!-- footer section end -->
+    </div>
+    
+    <div class="overlay"></div>
+    
+    
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <!-- jQuery Custom Scroller CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="vendors/Counting-Plugin/js/jquery.counterup.min.js"></script>
+    <script src="vendors/Counting-Plugin/js/jquery.waypoints.min.js"></script>
+    <script src="vendors/Counting-Plugin/js/custom.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    
+    <script src="vendors/EasyZoom/dist/easyzoom.js"></script>
+
+    <script src="js/custom.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,37 @@
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {font-family: 'Josefin Sans', sans-serif;}
+
+
+
+
+
+
+.numbers {
+  padding: 50px 0;
+  background: #f7f7f7;
+}
+.numbers .item span {
+  font-size: 30px;
+  color: #ec145b;
+  margin-bottom: 25px;
+}
+.numbers .item h5 {
+  font-size: 30px;
+  font-weight: 800;
+  margin-bottom: 15px;
+}
+.numbers .item h6 {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+
+
+
+
+

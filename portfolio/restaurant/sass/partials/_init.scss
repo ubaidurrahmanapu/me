@@ -1,0 +1,57 @@
+@import 'variable.scss';
+*, ::after, ::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Kurale', serif;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+}
+.form-control:focus{
+    box-shadow: none;
+    border-color: $blue;
+}
+
+.custom-btn{
+    margin: 0 auto;
+    display: block;
+    background: $blue;
+    color: $white-primary;
+    border-radius: 0;
+    padding: 7px 30px;
+    transition: all .7s;
+    font-size: 18px;
+    &:hover{
+        background: lighten($blue, 20%)
+    }
+        
+}
+
+.section_heading{
+    text-align: center;
+    padding-bottom: 30px;
+    h2{
+        color: $blue;
+    }
+    hr{
+        width: 50px;
+        border-top: 2px solid $blue;
+        margin: 20px auto;
+    }
+}
+
+.carousel-indicators{
+    position: static;
+    margin-top: 20px;
+}
+.carousel-indicators li{
+    background: rgba($black, .5);
+    cursor: pointer;
+}
+.carousel-indicators .active{
+    background: rgba($black, .8);
+}

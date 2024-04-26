@@ -1,0 +1,33 @@
+@import 'variable.scss';
+*, ::after, ::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Kurale', serif;
+}
+
+ul{
+    list-style-type: none;
+    
+}
+
+.section_heading{
+    text-align: center;
+    padding: 30px 0;
+    p{
+        text-transform: uppercase;
+    }
+}
+p,{
+    font-family: 'Roboto', sans-serif;
+}
+
+.form-control{
+    border-radius: 0;
+    &:focus{
+    border-color: inherit;
+    box-shadow: none;
+    }
+}

@@ -1,0 +1,22 @@
+++++++++
+required sections
+++++++++
+1) top menu
+2) main menu
+3) slider
+4) search
+5) main services 
+6) services with detiles 
+7) rooms
+8) vdo
+9) incentives
+10) testimonial
+11) subscribtion
+12) map
+13)  footer
+++++++++
+resource url
+++++++++
+http://themebubble.com/demo/hotelluxe/resort/
+http://hotelwp.thimpress.com/demo-2/
+https://plethorathemes.com/hotel-xenia/
